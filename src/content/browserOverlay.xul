@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
+<?xml-stylesheet type="text/css"
+  href="chrome://phonetify/skin/toolbar.css" ?>
+
+<!DOCTYPE overlay SYSTEM
+  "chrome://phonetify/locale/browserOverlay.dtd">
+
+<overlay id="phonetify-browser-overlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript"
+    src="chrome://phonetify/content/generated-js/loader.js" />
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="phonetify-string-bundle"
+      src="chrome://phonetify/locale/browserOverlay.properties" />
+  </stringbundleset>
+
+  <toolbarpalette id="BrowserToolbarPalette">
+    <toolbarbutton id="phonetify-button"
+		   class="toolbarbutton-1 chromeclass-toolbar-additional"
+		   label="&phonetify.mainbutton.label;"
+		   tooltiptext="&phonetify.mainbutton.tooltip;" />
+  </toolbarpalette>
+
+</overlay>

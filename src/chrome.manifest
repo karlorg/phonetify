@@ -1,0 +1,6 @@
+content   phonetify                content/
+skin      phonetify  classic/1.0   skin/
+locale    phonetify  en-US         locale/en-US/
+
+overlay chrome://browser/content/browser.xul  chrome://phonetify/content/browserOverlay.xul
+style chrome://global/content/customizeToolbar.xul chrome://phonetify/skin/toolbar.css
